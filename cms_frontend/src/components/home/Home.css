@@ -1,0 +1,118 @@
+#page-footer {
+  background-color: #053248 !important;
+  color: white;
+  margin-top: 10rem;
+}
+
+#page-footer .contact {
+  margin-top: 0.5rem;
+}
+
+.contact h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.contact ul {
+  display: flex;
+}
+
+.contact li {
+  display: inline;
+}
+
+.contact-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-box {
+  background-color: #043c70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid transparent;
+  gap: 4px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+  transition: 0.4s ease-in;
+}
+
+.contact-box i {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: white;
+}
+
+
+.contact-box:hover{
+    background-color: #00070E;
+}
+
+.socialnetworks h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.socialnetworks ul {
+  display: flex;
+}
+
+.socialnetworks li {
+  display: inline;
+}
+
+#page-footer .column-center{
+    text-align: center;
+}
+
+.logininfo{
+    margin: 0.5rem 0;
+}
+
+#page-footer .column-right{
+    text-align: right;
+}
+
+.column-right h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0.5rem 0;
+  }
+
+
+
+  /* Media queries for small devices */
+  @media (max-width: 767px) {
+    .contact,
+    .socialnetworks,
+    .logininfo,
+    .column-right {
+      text-align: center; /* Center align content */
+      margin-bottom: 20px; /* Add margin between sections */
+    }
+  
+    .contact-box,
+    .socialnetworks-box,
+    .logininfo,
+    .column-right {
+      display: flex; /* Use Flexbox to center icons and text */
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-box i,
+    .socialnetworks-box i {
+      margin-bottom: 10px; /* Add space between icon and text */
+    }
+  
+    .column-center {
+      order: -1; /* Move column-center to the top */
+    }
+  }

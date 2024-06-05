@@ -1,0 +1,14 @@
+.col{
+    margin-left: 25rem;
+}
+
+.admin-card{
+    margin-top: 10px;
+    width: 14rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image{
+    height: 150px !important;
+}

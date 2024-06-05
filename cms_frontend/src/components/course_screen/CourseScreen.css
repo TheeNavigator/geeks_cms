@@ -1,0 +1,38 @@
+.top-controls{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
+    
+  }
+
+.title h5{
+margin-top: 15px;
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.3);
+
+}
+
+hr{
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+@media (max-width: 767px) {
+    hr{
+        width: 41rem;
+    }
+}
